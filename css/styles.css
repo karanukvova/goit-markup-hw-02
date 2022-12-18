@@ -1,0 +1,211 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #434455;
+}
+:root{
+    --color-iris:#4D5AE5;
+    --color-navy-blue:#2E2F42;
+    --color-green:#31D0AA;
+    --color-slate:#434455;
+    --color-light-slate:#8E8F99;
+    --color-cornflower:#E7E9FC;
+    --color-cloud:#F4F4FD;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*---------------   NAVIGATION  ----------------- */
+.logo-1{
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+}
+.logo-2{
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-navy-blue);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+}
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-link:hover {
+    color:var(--color-slate)
+}
+.header-link:focus {
+    color: var(--color-iris);
+}
+.header-contacts{
+    font-weight: 400;
+    color: var(--color-slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*---------------   MAIN  ----------------- */
+.main-section{
+    background-color: var(--color-navy-blue);
+}
+.main-title{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.main-btn{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19p;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--color-iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.main-btn:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.main-btn:focus{
+    background: #404BBF;
+}
+
+/*---------------   SKILLS  ----------------- */
+.skill{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navy-blue);
+    letter-spacing: 0.02em;
+}
+.about-skill{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+/*---------------   ABOUT OUR WORK  ----------------- */
+.about-our-work{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--color-navy-blue);
+}
+/*---------------   OUR TEAM  ----------------- */
+.our-team-section{
+    background-color: var(--color-cloud);
+}
+.team-title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--color-navy-blue);
+}
+.user {
+    background-color: #FFFFFF;
+    width: 260px;
+}
+.name-user {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navy-blue);
+    letter-spacing: 0.02em;
+}
+.user-work {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+/*---------------   FOOTER  ----------------- */
+.logo-3{
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-cloud);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+}
+.footer {
+    background-color: var(--color-navy-blue);
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cornflower);
+}
+/*---------------   PORTFOLIO  ----------------- */
+.filter{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--color-iris);
+    background:var(--color-cloud);
+    border: 1px solid var(--color-cornflower);
+    border-radius: 4px;
+}
+.filter:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background:var(--color-iris);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.project{
+    background-color: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 360px;
+}
+.project-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+.project-type{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
