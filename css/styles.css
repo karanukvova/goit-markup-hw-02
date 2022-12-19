@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #434455;
+    color:var(--color-slate);
 }
 :root{
     --color-iris:#4D5AE5;
@@ -37,14 +37,16 @@ body{
     color: var(--color-iris);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 .logo-2{
     font-family: 'Raleway', sans-serif;
     color: var(--color-navy-blue);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 .header-link{
     font-weight: 500;
@@ -53,7 +55,7 @@ body{
     letter-spacing: 0.02em;
 }
 .header-link:hover {
-    color:var(--color-slate)
+    color:var(--color-iris)
 }
 .header-link:focus {
     color: var(--color-iris);
@@ -64,6 +66,9 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.header-contacts:hover{
+    color: var(--color-iris);
 }
 /*---------------   MAIN  ----------------- */
 .main-section{
@@ -81,7 +86,7 @@ body{
     font-family:inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19p;
+    line-height: 1.19;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--color-iris);
@@ -90,6 +95,7 @@ body{
 }
 .main-btn:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: #404BBF;
 }
 .main-btn:focus{
     background: #404BBF;
@@ -155,7 +161,8 @@ body{
     color: var(--color-cloud);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 .footer {
     background-color: var(--color-navy-blue);
@@ -168,11 +175,9 @@ body{
 }
 /*---------------   PORTFOLIO  ----------------- */
 .filter{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--color-iris);
     background:var(--color-cloud);
@@ -180,12 +185,20 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
-.filter:focus{
-    font-weight: 500;
+.filter:hover{
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
-    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background:var(--color-iris);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.filter:focus{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background:var(--color-iris);
