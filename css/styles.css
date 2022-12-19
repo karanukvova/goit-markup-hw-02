@@ -41,18 +41,14 @@ body{
     text-transform: uppercase;
 }
 .logo-2{
-    font-family: 'Raleway', sans-serif;
     color: var(--color-navy-blue);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    text-transform: uppercase;
 }
 .header-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 .header-link:hover {
     color:var(--color-iris)
@@ -61,7 +57,6 @@ body{
     color: var(--color-iris);
 }
 .header-contacts{
-    font-weight: 400;
     color: var(--color-slate);
     font-size: 16px;
     line-height: 1.5;
@@ -157,12 +152,7 @@ body{
 }
 /*---------------   FOOTER  ----------------- */
 .logo-3{
-    font-family: 'Raleway', sans-serif;
     color: var(--color-cloud);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    text-transform: uppercase;
 }
 .footer {
     background-color: var(--color-navy-blue);
@@ -180,30 +170,18 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-    background:var(--color-cloud);
+    background-color:var(--color-cloud);
     border: 1px solid var(--color-cornflower);
     border-radius: 4px;
     cursor: pointer;
 }
-.filter:hover{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background:var(--color-iris);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
+.filter:hover,
 .filter:focus{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
-    background:var(--color-iris);
+    background-color: var(--color-iris);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border-color: var(--color-iris);
 }
 .project{
     background-color: #FFFFFF;
